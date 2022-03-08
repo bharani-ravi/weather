@@ -2,10 +2,11 @@ body {
   background: #eeedec;
   letter-spacing: 0.2em;
   font-size: 0.8em;
+  background-image: url();
 }
 
 .container {
-  max-width: 400px;
+  width: 100%;
 }
 .icon {
   position: relative;
@@ -13,4 +14,26 @@ body {
   border-radius: 50%;
   width: 100%;
   margin-bottom: -50px;
+}
+.col {
+  width: 100%;
+  display: flex;
+  /* grid-template-rows: 1fr; */
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+}
+.btn {
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+.col1 {
+  background-color: white;
+}
+.row1 {
+  display: flex;
+  gap: 20px;
+}
+.dispnone {
+  display: none;
 }
